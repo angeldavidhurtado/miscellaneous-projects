@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		function calcularCuadrado(numero) {
+			return numero * numero
+		}
+
+		function mostrarNumeros(n) {
+			if (n > 100) return
+			alert(n)
+			mostrarNumeros(n + 1)
+		}
+
+		(function main() {
+			let numero = parseFloat(prompt("Ingrese un número para calcular su cuadrado:"))
+			if (!isNaN(numero))
+				alert(`El cuadrado de ${numero} es: ${calcularCuadrado(numero)}`)
+			else
+				alert("Por favor, ingrese un número válido.")
+
+			mostrarNumeros(1)
+		})()
+	</script>
+</body>
+</html>

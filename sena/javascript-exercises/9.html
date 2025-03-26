@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		function calcularMedia(a, b) {
+			return (a + b) / 2
+		}
+
+		(function main() {
+			let num1 = parseFloat(prompt("Ingrese el primer número:"))
+			let num2 = parseFloat(prompt("Ingrese el segundo número:"))
+
+			alert(`La media de ${num1} y ${num2} es: ${calcularMedia(num1, num2)}`)
+		})()
+	</script>
+</body>
+</html>

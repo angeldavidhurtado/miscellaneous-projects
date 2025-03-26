@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		function Login(usuario, contrasenia) {
+			return usuario == "usuario1" && contrasenia == "asdasd"
+		}
+
+		(function main() {
+			let intentos = 3
+			
+			while (intentos > 0) {
+				let usuario = prompt("Ingrese su nombre de usuario:")
+				let contrasenia = prompt("Ingrese su contraseña:")
+				
+				if (Login(usuario, contrasenia))
+					return alert("Login exitoso. Bienvenido!")
+				else
+					alert(`Login incorrecto. Intentos restantes: ${--intentos}`)
+			}
+
+			alert("Has agotado todos los intentos. Acceso denegado.")
+		}())
+	</script>
+</body>
+</html>

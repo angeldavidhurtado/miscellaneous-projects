@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		function contarHistoria(nombre, apellido, lugar) {
+			alert(`Había una vez una persona llamada ${nombre} ${apellido}, quien vivía en ${lugar}. Un día, decidió emprender una gran aventura que cambiaría su vida para siempre.`)
+		}
+
+		(function main() {
+			let nombre = prompt("Ingrese su nombre:")
+			let apellido = prompt("Ingrese su apellido:")
+			let lugar = prompt("Ingrese un lugar:")
+			contarHistoria(nombre, apellido, lugar)
+		})()
+	</script>
+</body>
+</html>

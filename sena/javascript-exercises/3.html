@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		function calcularMaxMin(numeros) {
+			let max = Math.max(...numeros)
+			let min = Math.min(...numeros)
+			return { max, min }
+		}
+
+		(function main() {
+			let input = prompt("Ingrese números separados por comas:")
+			let numeros = input
+				.split(',')
+				.map(num => parseFloat(num.trim()))
+				.filter(num => !isNaN(num))
+
+			if (numeros.length == 0) {
+				alert("No ingresó números válidos.")
+				return
+			}
+
+			let { max, min } = calcularMaxMin(numeros)
+			alert(`El número máximo es: ${max}\nEl número mínimo es: ${min}`)
+		}())
+	</script>
+</body>
+</html>

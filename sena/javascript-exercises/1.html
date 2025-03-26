@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		function EsMultiplo(a, b) {
+			return a % b == 0
+		}
+
+		let num1 = parseInt(prompt("Ingrese el primer número entero:"))
+		let num2 = parseInt(prompt("Ingrese el segundo número entero:"))
+
+		if (EsMultiplo(num1, num2))
+			alert(`${num1} es múltiplo de ${num2}`)
+		else if (EsMultiplo(num2, num1))
+			alert(`${num2} es múltiplo de ${num1}`)
+		else
+			alert("Ninguno de los números es múltiplo del otro.")
+	</script>
+</body>
+</html>

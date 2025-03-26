@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		function mostrarNumeroEnLetras(numero) {
+			const numerosEnLetras = ["Uno", "Dos", "Tres", "Cuatro", "Cinco", "Seis", "Siete", "Ocho", "Nueve", "Diez"]
+			
+			if (numero >= 1 && numero <= 10)
+				alert(`El número ${numero} en letras es: ${numerosEnLetras[numero - 1]}`)
+			else
+				alert("Número fuera de rango. Debe ser entre 1 y 10.")
+		}
+
+		(function main() {
+			let numero = parseInt(prompt("Ingrese un número del 1 al 10:"))
+			mostrarNumeroEnLetras(numero)
+		})()
+	</script>
+</body>
+</html>

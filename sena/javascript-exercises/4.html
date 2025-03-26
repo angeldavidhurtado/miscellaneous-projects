@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		function calcularAreaYPerimetro(radio) {
+			let area = Math.PI * Math.pow(radio, 2)
+			let perimetro = 2 * Math.PI * radio
+			return { area, perimetro }
+		}
+
+		(function main() {
+			let radio = parseFloat(prompt("Ingrese el radio de la circunferencia:"))
+
+			if (isNaN(radio) || radio <= 0) {
+				alert("Por favor, ingrese un número válido y mayor a 0.")
+				return
+			}
+
+			let { area, perimetro } = calcularAreaYPerimetro(radio)
+			alert(`Área: ${area.toFixed(2)}\nPerímetro: ${perimetro.toFixed(2)}`)
+		}())
+	</script>
+</body>
+</html>

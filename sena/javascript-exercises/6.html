@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		function sumarNumeros(a, b) {
+			return a + b
+		}
+
+		function restarNumeros(a, b) {
+			return a - b
+		}
+
+		function multiplicarNumeros(a, b) {
+			return a * b
+		}
+
+		function dividirNumeros(a, b) {
+			if (b == 0) return "Error: No se puede dividir por cero"
+			return a / b
+		}
+
+		(function main() {
+			let num1 = parseFloat(prompt("Ingrese el primer número:"))
+			let num2 = parseFloat(prompt("Ingrese el segundo número:"))
+
+			let operacion = prompt("Seleccione una operación: suma, resta, multiplicación, división")
+				.toLowerCase()
+			let resultado
+
+			switch (operacion) {
+				case "suma":
+					resultado = sumarNumeros(num1, num2)
+					break
+				case "resta":
+					resultado = restarNumeros(num1, num2)
+					break
+				case "multiplicación":
+				case "multiplicacion":
+					resultado = multiplicarNumeros(num1, num2)
+					break
+				case "división":
+				case "division":
+					resultado = dividirNumeros(num1, num2)
+					break
+				default:
+					alert("Operación no válida.")
+					return
+			}
+
+			alert(`El resultado de la ${operacion} es: ${resultado}`)
+		}())
+	</script>
+</body>
+</html>
