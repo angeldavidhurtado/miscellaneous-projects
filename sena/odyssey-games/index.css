@@ -1,0 +1,114 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	box-sizing: border-box;
+}
+
+body {
+	background: #000123;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+}
+
+.center {
+	max-width: 900px;
+	width: 90%;
+	margin: auto;
+}
+
+.link {
+	background-color: #ff0f7b;
+	padding: 10px 20px;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	width: fit-content;
+	border-radius: 50px;
+	color: white;
+	font-weight: 600;
+	text-decoration: none;
+}
+.link .row {
+	background: white;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.link img {
+	width: 15px;
+}
+
+
+
+
+/* -- -- main -- -- */
+
+header {
+	text-align: center;
+	font-size: 32px;
+	padding: 100px 0;
+}
+
+header h2 {
+	margin-bottom: 40px;
+}
+
+header img {
+	width: 100%;
+	border-radius: 20px;
+}
+
+
+
+
+/* -- -- main -- -- */
+
+main {
+	background: url("./img/bg-gamepad.png");
+	background-size: cover;
+	padding: 100px 40px;
+}
+
+main h1 {
+	font-size: 72px;
+	font-weight: 500;
+	margin-bottom: 150px;
+}
+
+main .name {
+	display: block;
+	font-size: 38px;
+	font-weight: bolder;
+	margin-bottom: 50px;
+}
+
+
+
+
+/* -- -- section -- -- */
+
+section .center {
+	width: 60%;
+	padding: 80px 0;
+}
+
+section img {
+	width: 100%;
+}
+
+section h2 {
+	color: #ff0f7b;
+	font-size: 38px;
+	margin: 30px 0;
+}
+
+section p {
+	font-size: 22px;
+	line-height: 30px;
+	margin-bottom: 30px;
+}

@@ -1,3 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 220.5 100.7" version="1.1" viewBox="0 0 220.5 100.7" x="0px" xml:space="preserve" y="0px" style="fill: rgb(0, 1, 35);" original_string_length="455">
-<g id="__id0_sbdt73wgsh"><polygon points="170.1 100.7 220.5 50.4 170.1 0 158.8 11.3 189.8 42.4 0 42.4 0 58.4 189.8 58.4 158.8 89.4" style="fill: inherit;"/></g>
-</svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   enable-background="new 0 0 220.5 100.7"
+   version="1.1"
+   viewBox="0 0 96.130791 100.7"
+   x="0px"
+   xml:space="preserve"
+   y="0px"
+   style="fill:#000123"
+   original_string_length="455"
+   id="svg1"
+   sodipodi:docname="row.svg"
+   width="96.130791"
+   height="100.7"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs1" /><sodipodi:namedview
+   id="namedview1"
+   pagecolor="#505050"
+   bordercolor="#eeeeee"
+   borderopacity="1"
+   inkscape:showpageshadow="0"
+   inkscape:pageopacity="0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#505050"
+   inkscape:zoom="1"
+   inkscape:cx="48"
+   inkscape:cy="50"
+   inkscape:window-width="1280"
+   inkscape:window-height="720"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg1" />
+
+<path
+   style="fill:#000123;fill-opacity:1;stroke:#f1e3c4;stroke-width:0;stroke-linejoin:round;paint-order:fill markers stroke"
+   d="m 0,42.4 h 65.43079 l -31,-31.1 11.3,-11.3 50.4,50.4 -50.4,50.3 -11.3,-11.3 31,-31 H 0 Z"
+   id="path1"
+   sodipodi:nodetypes="cccccccccc" /></svg>
