@@ -18,6 +18,36 @@ body {
 	margin: auto;
 }
 
+
+
+
+/* -- -- nav -- -- */
+
+nav {
+	background: black;
+	padding: 20px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	gap: 20px;
+	justify-content: end;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+
+
+
 main {
 	background: url("./../img/contact.png");
 	min-height: 100svh;
