@@ -13,7 +13,7 @@ body {
 }
 
 .center {
-	max-width: 900px;
+	max-width: 1000px;
 	width: 60%;
 	margin: auto;
 }
@@ -52,12 +52,13 @@ main {
 	background: url("./../img/contact.png");
 	min-height: 100svh;
 	background-size: cover;
+	padding-top: 200px;
 }
 
 h1 {
-	font-size: 72px;
+	font-size: 60px;
 	margin-bottom: 30px;
-	margin-top: 120px;
+	font-weight: 500;
 }
 
 p,
@@ -80,4 +81,14 @@ ul {
 
 ul img {
 	height: 50px;
+}
+
+
+@media screen and (min-width: 800px) {
+	.center {
+		display: grid;
+		grid-template-columns: 1.3fr 1fr;
+		gap: 40px;
+		width: 90%;
+	}
 }
