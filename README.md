@@ -12,8 +12,6 @@ El presente repositorio está formado por mis proyectos académicos como estudia
 
 <h2 align="center">Scratch</h2>
 
-<br>
-
 ### El gato y el ratón - ¡Atrápalo con coordenadas!
 <p align="center">
 	<a href="https://scratch.mit.edu/projects/1192326159/">
