@@ -74,8 +74,9 @@ El presente repositorio está formado por mis proyectos académicos como estudia
 </p>
 
 <br>
-<br>
 
-## [**Ver más...**](https://angeldavidhurtado.github.io)
+## Actualidad
+
+Mis trabajos más recientes en mi [**portfolio**](https://angeldavidhurtado.github.io)
 
 <br>
