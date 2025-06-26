@@ -1,6 +1,6 @@
 <br>
 
-<h1 align="center">Proyectos diversos</h1>
+<h1 align="center">Miscellaneous Projects</h1>
 <p align="center">Ángel David Hurtado</p>
 
 <br>
