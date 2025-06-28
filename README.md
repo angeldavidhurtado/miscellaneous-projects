@@ -10,6 +10,49 @@ El presente repositorio está formado por mis proyectos académicos como estudia
 <br>
 <br>
 
+<h2 align="center">Excel</h2>
+
+### Ahorcado
+
+<p align="center">
+	<img src="./excel/readme-img/ahorcado.webp" alt="" />
+</p>
+
+<br>
+
+### Autosuma
+
+<p align="center">
+	<img src="./excel/readme-img/autosuma.webp" alt="" />
+</p>
+
+<br>
+
+#### Solución de autosuma 
+
+<p align="center">
+	<img src="./excel/readme-img/autosuma-solucion.webp" alt="" />
+</p>
+
+<br>
+
+### Pixelart
+
+<p align="center">
+	<img src="./excel/readme-img/pixelart.webp" alt="" />
+</p>
+
+<br>
+
+### Adivinar el número
+
+<p align="center">
+	<img src="./excel/readme-img/adivinar-el-numero.webp" alt="" />
+</p>
+
+<br>
+<br>
+
 <h2 align="center">Scratch</h2>
 
 ### El gato y el ratón - ¡Atrápalo con coordenadas!
